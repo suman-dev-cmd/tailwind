@@ -52,7 +52,7 @@ const Menu:React.FC = () => {
     ]
     return(
       <div className="container mx-auto mt-5 mb-5">
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 md:grid-cols-1 gap-4">
           {images.map((img:imageTye) => (
             <div className="max-w-sm rounded overflow-hidden shadow-lg" key={img.id}>
               <img src={img.image} alt="" className="w-full"/> 

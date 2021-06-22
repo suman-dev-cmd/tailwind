@@ -4,7 +4,7 @@ import React from 'react';
 const Content:React.FC = () => {
     return(
         <>
-        <div className="grid grid-cols-3 gap-4">
+        <div className="grid lg:grid-cols-3 md:grid-cols-2 md:grid-cols-1 gap-4">
             <div className='menu-card'>
             <img src={ImageOne} alt='egg' className='h-full rounded mb-20 shadow' />
             <div className='center-content'>
